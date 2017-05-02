@@ -83,7 +83,7 @@ export default {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  right: 0;
   background-color: @primaryColor;
   transition: width .3s linear;
   border-radius: 2px;
@@ -91,10 +91,10 @@ export default {
 
 @keyframes mu-linear-progress-animate {
   0% {
-    left: -40%;
+    right: -40%;
   }
   100% {
-    left: 100%;
+    right: 100%;
   }
 }
 </style>

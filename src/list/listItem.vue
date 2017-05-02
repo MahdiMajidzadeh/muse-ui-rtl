@@ -135,10 +135,10 @@ export default {
       return this.$parent.nestedLevel + 1
     },
     showLeft () {
-      return this.$slots && ((this.$slots.left && this.$slots.left.length > 0) || (this.$slots.leftAvatar && this.$slots.leftAvatar.length > 0))
+      return this.toggleNested || (this.$slots && ((this.$slots.left && this.$slots.left.length > 0) || (this.$slots.leftAvatar && this.$slots.leftAvatar.length > 0)))
     },
     showRight () {
-      return this.toggleNested || (this.$slots && ((this.$slots.right && this.$slots.right.length > 0) || (this.$slots.rightAvatar && this.$slots.rightAvatar.length > 0)))
+      return (this.$slots && ((this.$slots.right && this.$slots.right.length > 0) || (this.$slots.rightAvatar && this.$slots.rightAvatar.length > 0)))
     },
     showTitleRow () {
       return this.title || (this.$slots && this.$slots.title && this.$slots.title.length > 0) ||
@@ -244,10 +244,10 @@ export default {
   color: @textColor;
   position: relative;
   &.show-left{
-    padding-left: 72px;
+    padding-left: 56px;
   }
   &.show-right{
-    padding-right: 56px;
+    padding-right: 72px;
   }
   &.has-avatar {
     min-height: 56px;

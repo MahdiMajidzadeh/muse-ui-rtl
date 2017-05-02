@@ -35,7 +35,7 @@ export default {
 <style lang="less">
 .mu-flexbox{
   width: 100%;
-  text-align: left;
+  text-align: right;
   display: flex;
   box-align: center;
   align-items: center;

@@ -36,7 +36,7 @@ export default {
   padding-left: 24px;
   padding-right: 24px;
   height: 48px;
-  text-align: left;
+  text-align: right;
   font-size: 13px;
   white-space: nowrap;
   text-overflow: ellipsis;

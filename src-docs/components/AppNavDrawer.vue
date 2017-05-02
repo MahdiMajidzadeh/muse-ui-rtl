@@ -21,7 +21,7 @@
       </span>
     </div>
     <mu-list @change="handleMenuChange" :value="menuVal">
-      <mu-list-item :title="$t('getStarted')" toggleNested slot="right">
+      <mu-list-item :title="$t('getStarted')" toggleNested>
         <mu-list-item value="#/install" slot="nested" :title="$t('installation')"/>
         <mu-list-item value="#/usage" slot="nested" :title="$t('usage')"/>
       </mu-list-item>

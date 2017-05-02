@@ -49,7 +49,7 @@ export default {
   display: inline-block;
   vertical-align: top;
   white-space: normal;
-  padding-right: 90px;
+  padding-left: 90px;
   .mu-card-title{
     font-size: 15px;
     color: fade(@textColor, 87%);

@@ -28,7 +28,7 @@ export default {
   computed: {
     itemStyle () {
       let styles = {}
-      let marginName = this.$parent.orient === 'horizontal' ? 'marginLeft' : 'marginTop'
+      let marginName = this.$parent.orient === 'horizontal' ? 'marginRight' : 'marginTop'
       styles[marginName] = `${this.$parent.gutter}px`
       styles['flex'] = `${this.grow} ${this.shrink} ${this.basis}`
       styles['order'] = this.order

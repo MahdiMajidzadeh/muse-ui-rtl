@@ -54,6 +54,7 @@ export default {
   position: relative;
   width: 48px;
   height: 48px;
+  direction: ltr;
 
   &.active{
     -webkit-animation: container-rotate 1568ms linear infinite;

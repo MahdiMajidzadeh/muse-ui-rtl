@@ -93,8 +93,8 @@ export default {
   padding: 0 12px;
   cursor: default;
   .mu-avatar:first-child{
-    margin-left: -12px;
-    margin-right: 4px;
+    margin-left: 4px;
+    margin-right: -12px;
   }
   &.active {
     box-shadow: 0 1px 6px fade(@fullBlack, 12%), 0 1px 4px fade(@fullBlack, 12%);
@@ -109,8 +109,8 @@ export default {
 }
 .mu-chip-delete-icon{
   display: inline-block;
-  margin-right: -8px;
-  margin-left: 4px;
+  margin-right: 4px;
+  margin-left: -8px;
   color: fade(@textColor, 26%);
   fill: currentColor;
   height: 24px;
