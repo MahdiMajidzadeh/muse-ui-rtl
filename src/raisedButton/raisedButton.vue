@@ -183,10 +183,10 @@ export default {
   }
   .mu-icon {
     vertical-align: middle;
-    margin-left: 12px;
-    margin-right: 0;
+    margin-right: 12px;
+    margin-left: 0;
     + .mu-raised-button-label {
-      padding-left: 8px;
+      padding-right: 8px;
     }
   }
   &.no-label {
@@ -196,14 +196,14 @@ export default {
   }
   &.label-before {
     .mu-raised-button-wrapper{
-      padding-right: 8px;
+      padding-left: 8px;
     }
     .mu-icon {
-      margin-right: 4px;
-      margin-left: 0;
+      margin-left: 4px;
+      margin-right: 0;
     }
     .mu-raised-button-label {
-      padding-right: 8px;
+      padding-left: 8px;
     }
   }
   .depth(1);

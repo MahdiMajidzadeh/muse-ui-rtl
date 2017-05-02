@@ -1,7 +1,7 @@
 <template>
 <mu-drawer @hide="handleHide" @close="handleClose" :open="open" :docked="docked" :overlay="docked" class="app-drawer" :zDepth="1" right>
   <mu-appbar :zDepth="0" class="exmaples-nav-appbar">
-    <a @click="handleMenuChange('#/index')" href="#/index" class="exmaples-appbar-title">Muse-UI</a>
+    <a @click="handleMenuChange('#/index')" href="#/index" class="exmaples-appbar-title">Muse-UI RtL</a>
     <!-- <mu-badge content="rc" class="exmaples-version" secondary/> -->
   </mu-appbar>
   <mu-divider/>

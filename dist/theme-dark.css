@@ -6,14 +6,6 @@
   color: #303030;
   background-color: #727272;
 }
-body {
-  background-color: #303030;
-  color: #ffffff;
-  font-family: Roboto, Lato, sans-serif;
-}
-a {
-  color: #ff4081;
-}
 .mu-badge {
   background-color: #757575;
   color: #303030;
@@ -25,6 +17,14 @@ a {
 .mu-badge-secondary {
   background-color: #ff4081;
   color: #303030;
+}
+body {
+  background-color: #303030;
+  color: #ffffff;
+  font-family: Roboto, Lato, sans-serif;
+}
+a {
+  color: #ff4081;
 }
 .mu-bottom-nav {
   background-color: #424242;

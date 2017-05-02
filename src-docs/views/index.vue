@@ -6,14 +6,14 @@
         <img src="/images/logo.png" class="mu-logo-image" alt="">
       </div>
       <h1 class="mu-banner-title">
-        Muse-UI
+        Muse-UI RTL
       </h1>
       <h2 class="mu-banner-sub-title">
         {{$t('subTitle')}}
       </h2>
       <div class="mu-banner-actions">
         <mu-raised-button label="Get Started" to="/install" class="mu-banner-button"/>
-        <mu-raised-button label="GITHUB" href="https://github.com/museui/muse-ui" class="mu-banner-button" icon=":mudocs-icon-custom-github"/>
+        <mu-raised-button label="GITHUB" href="https://github.com/MahdiMajidzadeh/muse-ui-rtl" class="mu-banner-button" icon=":mudocs-icon-custom-github"/>
       </div>
     </div>
     <div class="mu-desc-wrapper">
@@ -160,7 +160,7 @@ export default {
 }
 .mu-desc-image + .mu-desc-content,
 .mu-desc-content + .mu-desc-image {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .mu-desc-title{
