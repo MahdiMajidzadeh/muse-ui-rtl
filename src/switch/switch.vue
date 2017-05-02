@@ -155,11 +155,11 @@ export default {
   width: 38px;
   padding: 4px 0px 4px 2px;
   position: relative;
-  margin-right: 8px;
+  margin-left: 8px;
   transition: all 450ms @easeOutFunction;
   .mu-switch.label-left &{
-    margin-right: 0;
-    margin-left: 8px;
+    margin-right: 8px;
+    margin-left: 0px;
   }
   .mu-switch.no-label &{
     margin-left: 0;

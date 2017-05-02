@@ -176,10 +176,10 @@ export default {
   height: 24px;
   vertical-align: middle;
   position: relative;
-  margin-right: 16px;
+  margin-left: 16px;
   .mu-checkbox.label-left &{
-    margin-right: 0;
-    margin-left: 16px;
+    margin-right: 16px;
+    margin-left: 0;
   }
   .mu-checkbox.no-label &{
     margin-left: 0;

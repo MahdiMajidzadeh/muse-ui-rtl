@@ -47,7 +47,8 @@ export default {
       const len = this.$children.length
       const el = this.$refs.highlight
       el.style.width = len > 0 ? (100 / len).toFixed(4) + '%' : '100%'
-      el.style.transform = 'translate3d(' + x + '%, 0, 0)'
+      el.style.width = len > 0 ? (100 / len).toFixed(4) + '%' : '100%'
+      el.style.transform = 'translate3d(-' + x + '%, 0, 0)'
     }
   },
   mounted () {
@@ -72,7 +73,7 @@ export default {
 
 .mu-tab-link-highlight{
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   height: 2px;
   background-color: @accentColor;

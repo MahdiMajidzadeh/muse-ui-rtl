@@ -94,7 +94,7 @@ function isDesktop () {
   width: auto;
   transition: all .45s @easeOutFunction;
   &.nav-hide {
-    left: 0;
+    right: 0;
   }
 }
 

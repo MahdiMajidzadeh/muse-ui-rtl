@@ -158,8 +158,8 @@ export default {
   }
   .mu-icon {
     vertical-align: middle;
-    margin-left: 12px;
-    margin-right: 0;
+    margin-left: 0;
+    margin-right: 12px;
     + .mu-flat-button-label {
       padding-left: 8px;
     }
@@ -172,13 +172,13 @@ export default {
     color: @textColor;
   }
   &.label-before {
-    padding-right: 8px;
+    padding-left: 8px;
     .mu-icon {
-      margin-right: 4px;
-      margin-left: 0;
+      margin-right: 0;
+      margin-left: 4px;
     }
     .mu-flat-button-label {
-      padding-right: 8px;
+      padding-left: 8px;
     }
   }
 }

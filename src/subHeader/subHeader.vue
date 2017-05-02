@@ -22,10 +22,10 @@ export default {
   color: @secondaryTextColor;
   font-size: 14px;
   line-height: 48px;
-  padding-left: 16px;
+  padding-right: 16px;
   width: 100%;
   &.inset{
-    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-<mu-drawer @hide="handleHide" @close="handleClose" :open="open" :docked="docked" :overlay="docked" class="app-drawer" :zDepth="1">
+<mu-drawer @hide="handleHide" @close="handleClose" :open="open" :docked="docked" :overlay="docked" class="app-drawer" :zDepth="1" right>
   <mu-appbar :zDepth="0" class="exmaples-nav-appbar">
     <a @click="handleMenuChange('#/index')" href="#/index" class="exmaples-appbar-title">Muse-UI</a>
     <!-- <mu-badge content="rc" class="exmaples-version" secondary/> -->
@@ -21,7 +21,7 @@
       </span>
     </div>
     <mu-list @change="handleMenuChange" :value="menuVal">
-      <mu-list-item :title="$t('getStarted')" toggleNested>
+      <mu-list-item :title="$t('getStarted')" toggleNested slot="right">
         <mu-list-item value="#/install" slot="nested" :title="$t('installation')"/>
         <mu-list-item value="#/usage" slot="nested" :title="$t('usage')"/>
       </mu-list-item>
@@ -215,7 +215,7 @@ export default {
 }
 
 .exmaples-nav-sub-header {
-  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .mu-version-box{
