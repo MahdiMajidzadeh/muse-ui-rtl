@@ -82,7 +82,7 @@
       <mu-flat-button slot="actions" @click="closeDialog" primary :label="$t('cancel')"/>
       <mu-flat-button slot="actions" primary @click="closeDialog" :label="$t('ok')"/>
     </mu-dialog>
-    <mu-drawer :open="drawer" :docked="false" @close="toggleDrawer()">
+    <mu-drawer :open="drawer" :docked="false" @close="toggleDrawer()" right>
       <mu-menu @itemClick="toggleDrawer()">
         <mu-menu-item title="Menu Item 1"/>
         <mu-menu-item title="Menu Item 2"/>

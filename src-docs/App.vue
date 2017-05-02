@@ -88,8 +88,8 @@ function isDesktop () {
 @import "../src/styles/import.less";
 .example-appbar{
   position: fixed;
-  left: 256px;
-  right: 0;
+  left: 0;
+  right: 256px;
   top: 0;
   width: auto;
   transition: all .45s @easeOutFunction;
@@ -100,10 +100,10 @@ function isDesktop () {
 
 .example-content{
   padding-top: 56px;
-  padding-left: 256px;
+  padding-right: 256px;
   transition: all .45s @easeOutFunction;
   &.nav-hide {
-    padding-left: 0;
+    padding-right: 0;
   }
 }
 
