@@ -54,7 +54,7 @@ export default {
   .mu-toast {
     width: auto;
     min-width: 288px;
-    left: 5%;
+    right: 5%;
     bottom: 7%;
   }
 }
@@ -63,8 +63,8 @@ export default {
     width: auto;
     min-width: 8%;
     top: 10%;
-    right: 7%;
-    left: auto;
+    left: 7%;
+    right: auto;
     bottom: auto;
     min-width: 288px;
   }
