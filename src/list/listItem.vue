@@ -135,10 +135,10 @@ export default {
       return this.$parent.nestedLevel + 1
     },
     showLeft () {
-      return this.toggleNested || (this.$slots && ((this.$slots.left && this.$slots.left.length > 0) || (this.$slots.leftAvatar && this.$slots.leftAvatar.length > 0)))
+      return (this.$slots && ((this.$slots.left && this.$slots.left.length > 0) || (this.$slots.leftAvatar && this.$slots.leftAvatar.length > 0)))
     },
     showRight () {
-      return (this.$slots && ((this.$slots.right && this.$slots.right.length > 0) || (this.$slots.rightAvatar && this.$slots.rightAvatar.length > 0)))
+      return this.toggleNested || (this.$slots && ((this.$slots.right && this.$slots.right.length > 0) || (this.$slots.rightAvatar && this.$slots.rightAvatar.length > 0)))
     },
     showTitleRow () {
       return this.title || (this.$slots && this.$slots.title && this.$slots.title.length > 0) ||
@@ -157,7 +157,7 @@ export default {
     },
     itemStyle () {
       return {
-        'margin-left': (18 * (this.nestedLevel - 1)) + 'px'
+        'margin-right': (18 * (this.nestedLevel - 1)) + 'px'
       }
     },
     textStyle () {
@@ -247,7 +247,7 @@ export default {
     padding-left: 56px;
   }
   &.show-right{
-    padding-right: 72px;
+    padding-left: 72px;
   }
   &.has-avatar {
     min-height: 56px;
@@ -286,7 +286,7 @@ export default {
 }
 
 .mu-item-right{
-  right: 12px;
+  left: 12px;
   justify-content: center;
   > .mu-icon-button {
     align-self: flex-start;

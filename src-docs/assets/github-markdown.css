@@ -37,6 +37,7 @@
 
 .markdown-body pre {
   overflow: auto;
+  direction: ltr;
 }
 
 .markdown-body code,

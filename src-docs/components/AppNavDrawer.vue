@@ -239,8 +239,8 @@ export default {
   align-items: center;
   height: 48px;
   margin-top: 8px;
-  padding-left: 16px;
-  padding-right: 40px;
+  padding-right: 16px;
+  padding-left: 40px;
   font-size: 16px;
 }
 
