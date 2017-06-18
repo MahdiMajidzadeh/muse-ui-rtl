@@ -93,7 +93,7 @@ Detailed changes for each release are documented in the [release notes](https://
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://museui.github.io/#/contributing) before making a pull request.
+Please make sure to read the Contributing Guide before making a pull request.
 
 ## Dependencies
 
@@ -105,5 +105,3 @@ Please make sure to read the [Contributing Guide](https://museui.github.io/#/con
 ## Licence
 
 muse-ui is open source and released under the MIT Licence.
-
-Copyright (c) 2016 myron
