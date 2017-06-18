@@ -1,8 +1,8 @@
 {
-  "name": "muse-ui",
-  "version": "2.0.2",
+  "name": "muse-ui-rtl",
+  "version": "2.0.2.1",
   "description": "material design ui for vue2",
-  "author": "myronliu347 <myronliu347@gmail.com>",
+  "author": "Mahdi Majidzadeh <mahdi.majidzadeh@gmail.com>",
   "main": "dist/muse-ui.js",
   "scripts": {
     "dev": "node build/dev-server.js",
