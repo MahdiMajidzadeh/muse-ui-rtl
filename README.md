@@ -1,21 +1,14 @@
 # Muse UI
-![](https://api.travis-ci.org/museui/muse-ui.svg?branch=master)
-[![npm package](https://img.shields.io/npm/v/muse-ui.svg)](https://www.npmjs.org/package/muse-ui)
-[![NPM downloads](http://img.shields.io/npm/dm/muse-ui.svg)](https://npmjs.org/package/muse-ui)
-[![Join the chat at https://gitter.im/muse-ui/muse-ui](https://badges.gitter.im/muse-ui/muse-ui.svg)](https://gitter.im/muse-ui/muse-ui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![](https://api.travis-ci.org/museui/muse-ui-rtl.svg?branch=master)
+[![npm package](https://img.shields.io/npm/v/muse-ui-rtl.svg)](https://www.npmjs.org/package/muse-ui-rtl)
+[![NPM downloads](http://img.shields.io/npm/dm/muse-ui-rtl.svg)](https://npmjs.org/package/muse-ui-rtl)
 
-> Material Design UI library for Vuejs 2.0
-
-## Links
-
-* [Home Page](https://www.muse-ui.org/)
-* [中文文档](https://www.muse-ui.org/#/install)
-* [English Docs](https://www.muse-ui.org/?lang=en)
+Material Design UI library for Vuejs 2.0 base on [muse-ui](https://github.com/museui/muse-ui)
 
 ## Install
 
 ```bash
-npm install muse-ui -save
+npm install muse-ui-rtl -save
 ```
 
 ## Get Started
@@ -100,7 +93,7 @@ Detailed changes for each release are documented in the [release notes](https://
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://museui.github.io/#/contributing) before making a pull request.
+Please make sure to read the Contributing Guide before making a pull request.
 
 ## Dependencies
 
@@ -112,5 +105,3 @@ Please make sure to read the [Contributing Guide](https://museui.github.io/#/con
 ## Licence
 
 muse-ui is open source and released under the MIT Licence.
-
-Copyright (c) 2016 myron
